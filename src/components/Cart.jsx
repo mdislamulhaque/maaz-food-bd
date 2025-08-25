@@ -89,7 +89,7 @@ export default function Cart() {
                           −
                         </button>
                         <input
-                          type="number"
+                          type="text"
                           className="w-14 rounded-lg ring-1 ring-neutral-300 text-center"
                           value={it.qty}
                           min={1}
