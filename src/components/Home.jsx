@@ -7,6 +7,7 @@ import { DELIVERY } from "../data/delivery";
 import { useApp } from "../context/AppContext";
 import { useNavigate } from "react-router";
 import { motion } from "framer-motion";
+import AllProducts from "./AllProducts";
 
 export default function Home() {
   const { t, setActiveCat } = useApp();
@@ -97,7 +98,7 @@ export default function Home() {
       </motion.section>
 
       {/* Categories */}
-      <Section
+      {/* <Section
         id="categories"
         title={t("ক্যাটাগরি", "Categories")}
         subtitle={t("যেটা পছন্দ, সেটাই বেছে নিন", "Pick your favorite")}
@@ -120,7 +121,8 @@ export default function Home() {
             </button>
           ))}
         </div>
-      </Section>
+      </Section> */}
+      <AllProducts/>
 
       {/* USP */}
       <Section id="usp" title={t("বিশ্বাসের কারণ", "Why choose us")}>
