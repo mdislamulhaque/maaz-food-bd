@@ -283,7 +283,7 @@ export default function Home() {
               {t("সাবস্ক্রাইব", "Subscribe")}
             </button>
             <a
-              href="https://wa.me/8801336-557503"
+              href="https://wa.me/8801336557503"
               target="_blank"
               rel="noreferrer"
               className="rounded-2xl bg-emerald-500 px-5 py-3 font-semibold hover:bg-white/20 text-white"
