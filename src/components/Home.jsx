@@ -260,7 +260,7 @@ export default function Home() {
           variants={ctaVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3 }}
         >
           <h3 className="text-2xl font-bold">
             {t("অফার পেতে সাবস্ক্রাইব করুন", "Subscribe for offers")}

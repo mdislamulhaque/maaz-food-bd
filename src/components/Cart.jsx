@@ -25,7 +25,7 @@ export default function Cart() {
     couponValid,
   } = useApp();
 
-  console.log(cart);
+ 
 
   return (
     <main>

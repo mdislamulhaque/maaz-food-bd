@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const PageWrapper = ({ children }) => {
   return (
     <motion.div
-      className="min-h-screen"
+      className="md:min-h-screen"
       initial={{ opacity: 0, x: 80 }}
       animate={{
         opacity: 1,

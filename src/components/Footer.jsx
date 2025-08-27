@@ -11,7 +11,7 @@ export default function Footer() {
     <>
       {/* Footer / Trust block */}
       <footer className="mt-10 border-t border-neutral-200 bg-white">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 grid md:grid-cols-4 gap-6">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 grid  md:grid-cols-4 justify-center items-center gap-6">
           <div>
             <div className="font-bold text-lg">Maaz Foods BD</div>
             <p className="text-sm text-neutral-600 mt-1">
