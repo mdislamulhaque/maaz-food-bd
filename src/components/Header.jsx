@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useApp } from "../context/AppContext";
 import { useNavigate } from "react-router";
+import Logo from "../assets/MaaZ_Food_BD_n-removebg-preview.png";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,15 +39,16 @@ export default function Header() {
           className="flex items-center gap-2 group"
           aria-label="Maaz Foods BD Home"
         >
-          <div className="size-9 rounded-2xl bg-emerald-600 flex items-center justify-center text-white text-lg">
+          <img src={Logo} alt="logo" className="w-40 h-12" />
+          {/* <div className="size-9 rounded-2xl bg-emerald-600 flex items-center justify-center text-white text-lg">
             MF
-          </div>
-          <div className="hidden md:block">
+          </div> */}
+          {/* <div className="hidden md:block">
             <div className="font-bold leading-4">Maaz Foods BD</div>
             <div className="text-[11px] text-neutral-600">
               {t("খাঁটি দেশি স্বাদ", "Pure Deshi Taste")}
             </div>
-          </div>
+          </div> */}
         </button>
 
         {/* Desktop Menu */}
